@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Berita Harian</title>
+    <style>
+        /* HEADER */
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: content-box;
+        }
+
+        .kepala{
+            overflow: hidden;
+            display: block;
+        }
+
+        .kepala>.logo{
+            width: 20%;
+            float: left;
+            padding-top: 30px;
+            padding-left: 40px;
+        }
+
+        .kepala>.title>p{
+            padding-top: 35px;
+            font-weight: bold;
+            font-size: 13mm;      
+            float: left;     
+        }
+
+        .kepala>.icon{
+            float: right;
+            padding: 60px;
+        }
+
+        .kepala>.icon>img{
+            width: 30px;
+        }
+
+        /* MENU */
+        .bar{
+            background-color: black;
+            overflow: hidden;
+        }
+        
+        .bar>ul>li{
+            list-style-type: none;
+            float: left;
+            color: white;
+        }
+        /* BADAN */
+
+        /* FOOTER */
+
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+
+    <div class="kepala">
+
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+
+        <div class="title">
+            <p>BERITA HARIAN</p>
+        </div>
+
+        <div class="icon">
+            <img src="images/facebook.png" alt="">
+            <img src="images/twitter.png" alt="">
+            <img src="images/instagram.png" alt="">
+            <img src="images/youtube.png" alt="">
+        </div>
+        
+    </div>
+    
+    <!-- MENU -->
+
+    <div class="bar">
+
+        <ul>
+            <li><a href="#">BERITA</a></li>
+            <li><a href="#">SUKAN</a></li>
+            <li><a href="#">DUNIA</a></li>
+            <li><a href="#">HIBURAN</a></li>
+        </ul>
+
+        <div class="cari">
+            <input type="text">
+            <form action="">
+                <input type="submit" value="CARI">
+            </form>
+        </div>
+
+    </div>
+
+    <!-- BODY -->
+
+    <!-- FOOTER -->
+</body>
+</html>

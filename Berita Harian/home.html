@@ -1,0 +1,286 @@
+<html>
+    <head>
+        <title>Berita Harian</title>
+    </head>
+    <style>
+        * {
+            box-sizing: content-box;
+            margin: 0;
+            padding: 0;
+        }
+        /*HEADER*/
+        .header {
+            overflow: hidden;
+            padding-bottom: 20px;
+        }
+        .header > .image {
+            float: left;
+            margin-left: 30px;
+        }
+        .header > .image > img {
+            margin-top: 20px;
+        }
+        .header > .title {
+            font-weight: bold;
+            font-size: 10mm;
+            margin-top: 20px;
+            margin-left: 70px;
+            float: left;
+        }
+        .header > .logo {
+            float: right;
+            margin-bottom: 20px;
+            margin-top: 50px;
+            width: 30%;
+        }
+        .header > .logo > .logo1 > img {
+            width: 5%;
+            float: left;
+            margin-left: 150px;
+        }
+        .header > .logo > .logo2 > img {
+            width: 5%;
+            float: left;
+            margin-left: 20px;
+        }
+        .header > .logo > .logo3 > img {
+            width: 5%;
+            float: left;
+            margin-left: 20px;
+        }
+        .header > .logo > .logo4 > img {
+            width: 5%;
+            float: left;
+            margin-left: 20px;
+        }
+        /*MENU*/
+        .content {
+            background-color: black;
+            overflow: hidden;
+        }
+        .content > .list > ul > li {
+            list-style-type: none;
+            color: aliceblue;
+            float: left;
+            width: 10%;
+            padding: 30px;
+        }
+
+        .content > .list > ul > li > a {
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .content > .list > ul > li:hover{
+            background-color: white;
+            color: black;
+        }
+        .input {
+            float: right;
+            width: 20%;
+            padding: 20px;
+        }
+        .input > input {
+            padding: 10px;
+            text-align: center;
+            float: left;
+        }
+        .cari > input {
+            padding: 10px;
+            margin-left: 10px;
+        }
+        /*BADAN*/ 
+        .badan {
+            margin-top: 10px;
+            width: 100%;
+            overflow: hidden;
+        }
+        .badan > .badan1 {
+            width: 20%;
+            float: left;
+        }
+        .badan > .badan1 > .gambar1 {
+            padding: 20px;
+            border-bottom: solid;
+        }
+        .badan > .badan1 > .gambar1 > a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .badan > .badan1 > .gambar2 {
+            padding: 20px;
+            border-bottom: solid;
+        }
+        .badan > .badan1 > .gambar2 > a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .badan > .badan1 > .gambar3 {
+            padding: 20px;
+            border-bottom: solid;
+        }
+        .badan > .badan1 > .gambar3 > a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .badan > .badan1 > .gambar4 {
+            padding: 20px;
+            border-bottom: solid;
+        }
+        .badan > .badan1 > .gambar4 > a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .badan > .badan2 {
+            background-color: grey;
+            float: right;
+            width: 80%;
+        }
+        .badan > .badan2 > .table {
+            padding: 222px;
+            border-style: 10px solid;
+            border-color: aliceblue;
+        }
+        .badan > .badan2 > .table > marquee > table {
+            margin: auto;
+            background-color: aliceblue;
+            width: 100%;
+            text-align: center;
+        }
+        /*FOOTER*/
+        .footer {
+            width: 100%;
+            margin-top: 20px;
+            background-color: black;
+            text-align: center;
+            font-size: 5mm;
+            overflow: hidden;
+            color: aliceblue;
+            padding: 20px;
+            border-style: solid;
+            border-color: aliceblue;
+        }
+    </style>
+    <body>
+        <!--HEADER-->
+    <div class="header">
+        <div class="image">
+            <img src="images/logo.png">
+        </div>
+        <div class="title">
+            BERITA HARIAN
+        </div>
+        <div class="logo">
+            <div class="logo1">
+                <img src="images/facebook.png">
+            </div>
+            <div class="logo2">
+                <img src="images/twitter.png">
+            </div>
+            <div class="logo3">
+                <img src="images/instagram.png">
+            </div>
+            <div class="logo4">
+                <img src="images/youtube.png">
+            </div>
+        </div>
+    </div>
+    <!--MENU-->
+    <div class="content">
+        <div class="list">
+            <ul>
+                <li><a href="#">BERITA</a></li>
+                <li><a href="#">SUKAN</a></li>
+                <li><a href="#">DUNIA</a></li>
+                <li><a href="#">HIBURAN</a></li>
+            </ul>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Masuk Kata Kunci">
+            <div class="cari">
+                <input type="submit" value="Cari">
+            </div>
+        </div>
+    </div>
+    <!--BADAN-->
+    <div class="badan">
+        <div class="badan1">
+            <div class="gambar1">
+                <img src="images/football.png" width="40%">
+                <a href="#">
+                    Bola Sepak
+                </a>
+            </div>
+            <div class="gambar2">
+                <img src="images/rugby.png" width="40%">
+                <a href="#">
+                    Ragbi
+                </a>
+            </div>
+            <div class="gambar3">
+                <img src="images/netball.png" width="40%">
+                <a href="#">
+                    Bola Jaring
+                </a>
+            </div>
+            <div class="gambar4">
+                <img src="images/swimming.png" width="40%">
+                <a href="#">
+                    Berenang
+                </a>
+            </div>
+        </div>
+        <div class="badan2">
+            <div class="table">
+                <marquee behavior="" direction="">
+                    <table>
+                        <tr>
+                            <th>Bil</th>
+                            <th>Negara</th>
+                            <th style="background-color: yellow;">Emas</th>
+                            <th style="background-color: grey;">Perak</th>
+                            <th style="background-color: brown;">Gangsa</th>
+                            <th style="background-color: limegreen;">Jumlah</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>China</td>
+                            <td style="background-color: yellow;">27</td>
+                            <td style="background-color: grey;">45</td>
+                            <td style="background-color: brown;">16</td>
+                            <td style="background-color: limegreen;">88</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Japan</td>
+                            <td style="background-color: yellow;">22</td>
+                            <td style="background-color: grey;">12</td>
+                            <td style="background-color: brown;">19</td>
+                            <td style="background-color: limegreen;">53</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>America</td>
+                            <td style="background-color: yellow;">20</td>
+                            <td style="background-color: grey;">56</td>
+                            <td style="background-color: brown;">2</td>
+                            <td style="background-color: limegreen;">78</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>ROC</td>
+                            <td style="background-color: yellow;">15</td>
+                            <td style="background-color: grey;">24</td>
+                            <td style="background-color: brown;">32</td>
+                            <td style="background-color: limegreen;">61</td>
+                        </tr>
+                    </table>
+                </marquee>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <div class="footer">
+        Copyright &copy; Berita Harian, 2021
+    </div>
+    </body>
+</html>
